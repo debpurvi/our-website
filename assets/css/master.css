@@ -1161,7 +1161,7 @@ img {
   border-radius: 40px;
 }
 .dark .portfolio__slide-2 .sec-title a {
-  color: var(--white);
+  color: var(--primary);
 }
 .dark .portfolio__slide-2 .btn-common {
   color: var(--gray);
