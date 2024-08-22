@@ -6690,7 +6690,7 @@ img {
 }
 .hero__title {
   font-weight: 500;
-  font-size: 150px;
+  font-size: 155px;
   line-height: 1;
   color: var( --primary);
   margin-top: 55px;
@@ -6787,8 +6787,8 @@ img {
 }
 .hero__sub-title {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 22px;
+  line-height: 1.6;
   color: var(--gray-3);
   max-width: 410px;
   position: absolute;
@@ -23627,6 +23627,7 @@ main {
       -ms-flex-pack: start;
           justify-content: start;
   height: 100%;
+  
 }
 @media only screen and (max-width: 767px) {
   .service__img-left img {
