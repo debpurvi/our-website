@@ -7458,6 +7458,7 @@ img {
   max-width: 770px;
   position: relative;
   z-index: 9;
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about__area .sec-title {
@@ -7502,6 +7503,7 @@ img {
 .about__area-2 .sec-title-wrapper {
   max-width: 770px;
   padding-bottom: 70px;
+  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about__area-2 .sec-title-wrapper {
@@ -7612,6 +7614,7 @@ img {
   text-transform: uppercase;
   padding-bottom: 40px;
   background-color: var(--black-2);
+  
 }
 .about__area-3 .sec-sub-title {
   color: var(--white);
