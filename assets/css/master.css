@@ -826,14 +826,14 @@ img {
 .dark .logo-dark {
   display: none;
 }
-.dark .portfolio__page section {
+/* .dark .portfolio__page section {
   margin-top: 0;
 }
 .dark .portfolio__page .wc-btn-dark:hover {
   color: var(--black-2);
   background-color: var(--white);
-  border-color: var(--white);
-}
+  border-color: var(--white); 
+}*/
 .dark .wc-btn-primary, .dark .wc-btn-black, .dark .wc-btn-light, .dark .wc-btn-pink,
 .dark .wc-btn-secondary {
   border-color: var(--primary);
