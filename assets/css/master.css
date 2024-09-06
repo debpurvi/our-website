@@ -8270,6 +8270,32 @@ img {
 /*  17. SERVICE CSS START
 /*----------------------------------------*/
 
+.service-v5 .portfolio__service-item, .service-v5.portfolio__service .sec-title, .service-v5.portfolio__service .sec-text, .service-v5.portfolio__service .sec-text p {
+  opacity: 1;
+}
+.service-v5 .portfolio__service-item {
+  margin-bottom: 25px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .service-v5.pt-140 {
+    padding-top: 150px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-v5.pt-140 {
+    padding-top: 130px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .service-v5.pt-140 {
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
+}
+.service-v5.portfolio__service .sec-title {
+  text-indent: 0;
+}
+
 /* .service__area {
   background-color: var(--black-2);
   overflow: hidden;
@@ -9518,31 +9544,7 @@ img {
     padding-top: 120px;
   }
 }
-.service-v5 .portfolio__service-item, .service-v5.portfolio__service .sec-title, .service-v5.portfolio__service .sec-text, .service-v5.portfolio__service .sec-text p {
-  opacity: 1;
-}
-.service-v5 .portfolio__service-item {
-  margin-bottom: 25px;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .service-v5.pt-140 {
-    padding-top: 150px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-v5.pt-140 {
-    padding-top: 130px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .service-v5.pt-140 {
-    padding-top: 120px;
-    padding-bottom: 40px;
-  }
-}
-.service-v5.portfolio__service .sec-title {
-  text-indent: 0;
-}
+
 
 .service__list-6 li a.active {
   color: red;
@@ -13633,7 +13635,7 @@ img {
 }
 .portfolio__service-item {
   padding: 40px;
-  border: 1.3px solid var(--black-2);
+  border: 1.3px solid var(--clr-theme-primary);
   border-radius: 21px;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -13664,7 +13666,7 @@ img {
 }
 .portfolio__service-item:hover .ps-title,
 .portfolio__service-item:hover ul li {
-  color: var(--white);
+  color: var(--primary);
 }
 .portfolio__service-item:hover::after {
   width: calc(100% + 1px);
