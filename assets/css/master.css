@@ -1248,10 +1248,7 @@ img {
   background-color: var(--d-black-2);
   background-blend-mode: overlay;
 }
-.dark .portfolio__service .sec-text, .dark .portfolio__service-item {
-  -webkit-filter: invert(1);
-          filter: invert(1);
-}
+
 .dark .portfolio__service .ps-btn a {
   color: var(--white);
   border-color: var(--white);
@@ -8273,6 +8270,9 @@ img {
 .service-v5 .portfolio__service-item, .service-v5.portfolio__service .sec-title, .service-v5.portfolio__service .sec-text, .service-v5.portfolio__service .sec-text p {
   opacity: 1;
 }
+.portfolio__service{
+  background: url("assets/imgs/hero/4/01.png");
+}
 .service-v5 .portfolio__service-item {
   margin-bottom: 25px;
 }
@@ -13659,14 +13659,14 @@ img {
   height: 76px;
   right: -2px;
   top: calc(50% - 38px);
-  background: var(--black-2);
+  background: var(--primary);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 15px 0px 0px 15px;
 }
 .portfolio__service-item:hover .ps-title,
 .portfolio__service-item:hover ul li {
-  color: var(--primary);
+  color: var(--black);
 }
 .portfolio__service-item:hover::after {
   width: calc(100% + 1px);
@@ -13680,7 +13680,7 @@ img {
   font-size: 24px;
   line-height: 1.5;
   text-transform: uppercase;
-  color: var(--black-2);
+  color: var(--white);
   padding-bottom: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -13713,7 +13713,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--black-2);
+  color: var(--white);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
