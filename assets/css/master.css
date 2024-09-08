@@ -5605,8 +5605,8 @@ img {
 }
 .offcanvas__social {
   padding-left: 50px;
-  padding-top: 220px;
-  border-bottom: 1px solid var(--black-4);
+  padding-top: 250px;
+  /* border-bottom: 1px solid var(--black-4); */
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .offcanvas__social {
@@ -32051,10 +32051,10 @@ ul.mega-menu-2.woocomerce-megamenu {
   padding-left: 0;
   padding-right: 50px;
 }
-.dir-rtl .offcanvas__links {
+/* .dir-rtl .offcanvas__links {
   padding-left: unset;
   padding-right: 50px;
-}
+} */
 .dir-rtl .offcanvas__left {
   border: none;
   border-left: 1px solid var(--black-4);
